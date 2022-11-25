@@ -14,14 +14,19 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: 'Fredoka One', cursive;
     color: white;
-    /* background-image: url(../images/bgi-keroppi.jpg); */
+    background-image: url(../images/bgi-keroppi.jpg);
 }
 
 header > h1 {
 text-align: center;
-padding: 8px;
+padding: 80px;
 font-size: 60px;
+background: url(../images/title-box.png) no-repeat center;
 }
+
+header > h1 > img {
+    height: 80px;
+    }
 
 article { 
     width: 25%; 
@@ -65,3 +70,7 @@ ul li {
 
 .done li:nth-child(odd) { background-color: rgba(255, 200, 17, 0.9); }
 .done li:nth-child(even) { background-color: rgba(255, 218, 95, 0.9); }
+
+/* .list-image {
+    height: 100px;
+} */
