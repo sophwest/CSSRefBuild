@@ -12,13 +12,14 @@
 body {
     font-size: 16px;
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fredoka One', cursive;
     color: white;
 }
 
 header > h1 {
 text-align: center;
 padding: 8px;
+font-size: 60px;
 }
 
 article { 
@@ -33,6 +34,7 @@ article {
 main { text-align: center; }
 
 article > h2 { 
+    font-size: 32px;
     color: palegoldenrod;
     padding: 4px 8px;
 }
